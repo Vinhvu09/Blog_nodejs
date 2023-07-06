@@ -308,6 +308,7 @@ img {
   position: absolute;
   left: 0;
   right: 0;
+  transition: all 0.3s linear;
 }
 
 .searchBar.open {
@@ -326,6 +327,7 @@ img {
   right: 0;
   color: var(--gray-light);
   padding: 15px;
+  cursor: pointer;
 }
 
 .pagination {
